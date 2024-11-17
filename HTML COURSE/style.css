@@ -1,0 +1,73 @@
+/* Basic reset and box model */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and layout */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+}
+
+/* Header and Navigation Styles */
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav h1 {
+  font-size: 24px;
+  color: white;
+  margin-right: 20px;
+}
+
+nav a {
+  display: inline-block;
+}
+
+nav img {
+  width: 168px;
+  height: 60px;
+  border-image: auto;
+}
+
+/* Styling the Add Row button */
+.table-action {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+h2{
+  border-color: blue;
+  color: blue;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+ 
+}
